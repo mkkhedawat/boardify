@@ -1,10 +1,15 @@
 {
     "name": "boardify",
     "description": "JSON configurations based single page static board generator for links and short notes",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "author": "Manish Kumar Khedawat <writetomansa@gmail.com>",
+    "homepage": "https://github.com/mkkhedawat/boardify",
     "main": "src/index.js",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mkkhedawat/boardify.git"
+    },
     "files": [
         "bin/",
         "src/"
