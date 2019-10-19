@@ -8,10 +8,15 @@ https://mkkhedawat.github.io/boardify-demo/
 
 ## how to use
 
-### local
-
-```bash
+### install
+```sh
+$ npm install -g boardify
 $ boardify --help
+```
+
+### run
+
+```sh
 $ boardify --init
 $ cd myBoard
 $ boardify --run
@@ -20,14 +25,14 @@ $ boardify --run
 
 ### build
 
-```bash
+```sh
 $ boardify --build
 ```
 
 ## contribution
 
 ```bash
-- git clone boardifyRepository
+- clone forked boardifyRepository
 - cd boardifyRepository
 - make changes
 - npm link
