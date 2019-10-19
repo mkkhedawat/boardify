@@ -1,0 +1,30 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "plugins": ["import", "prettier"],
+    "extends": ["airbnb-base", "plugin:prettier/recommended"],
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "linebreak-style": ["error", "unix"],
+        "semi": ["error", "always"],
+        "arrow-parens": ["error", "as-needed"],
+        "max-len": ["error", { "code": 151, "ignoreComments": true }],
+        "prefer-destructuring": ["error", { "object": true, "array": false }],
+        "operator-linebreak": ["error", "after"],
+        "object-curly-newline": [
+            "error",
+            {
+                "ObjectExpression": { "multiline": true, "minProperties": 10 },
+                "ObjectPattern": { "multiline": true, "minProperties": 10 },
+                "ImportDeclaration": "never",
+                "ExportDeclaration": "always"
+            }
+        ],
+        "no-unused-expressions": ["error", { "allowShortCircuit": true }]
+    }
+}

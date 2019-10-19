@@ -1,0 +1,11 @@
+div(class="col s4",id="right-container")
+    ul(class="collection with-header")
+        li(class="collection-header")
+            h4
+                | &nbsp;Links
+        each item in right
+            li(class="collection-item hoverable")
+                div=item.title
+                    a(target="_blank",href=item.link,class="secondary-content")
+                        i(class="material-icons")=item.icon
+        li(class="collection-item") &nbsp;

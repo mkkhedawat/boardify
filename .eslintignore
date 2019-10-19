@@ -1,0 +1,10 @@
+.git/*
+.tmp/*
+dist/*
+docs/*
+build/
+node_modules/*
+**/node_modules/*
+coverage/*
+debug/*
+scripts

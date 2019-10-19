@@ -1,0 +1,9 @@
+
+div(class="col s8", id="left-container")
+    include quote.pug
+    div(class="tasklist-container")
+        each item in left
+            div(class="listing")
+                div(class="title hz-line")=item.title
+                each line in item.desc
+                    div(class="description")=line

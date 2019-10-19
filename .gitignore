@@ -1,0 +1,10 @@
+*~
+node_modules
+*log
+*.TMP
+*.out
+*.bin
+temp
+build
+.DS_Store
+.vscode
