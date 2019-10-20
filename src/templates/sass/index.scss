@@ -1,8 +1,8 @@
-@import "materialize";
+@import 'materialize';
 
 body,
 html {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: rgba(0, 0, 0, 0.77);
     font-weight: 300;
 
@@ -34,8 +34,7 @@ html {
                 padding: 30px;
 
                 .quote {
-                    font-family: "Avant Garde", Avantgarde, "Century Gothic",
-                        CenturyGothic, "AppleGothic", sans-serif;
+                    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, 'AppleGothic', sans-serif;
                     font-size: 20px;
                     padding: 13px 8px 50px;
                     text-align: center;
@@ -72,7 +71,9 @@ html {
                 }
             }
 
-            #right-container {}
+            #right-container {
+                margin-top: 6.7em;
+            }
         }
     }
 }
